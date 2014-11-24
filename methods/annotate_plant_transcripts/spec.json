@@ -1,6 +1,6 @@
 {
   "ver" : "1.0.0",
-  "authors" : [ ],
+  "authors" : [],
   "contact" : "help@kbase.us",
   "visble" : true,
   "categories" : [],
@@ -63,5 +63,5 @@
         },
       ]
     }
-  },
+  }
 }
