@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : Annotate Plant Transcripts
+name     : Annotate Plant Genome
 subtitle : |
-    Annotate a Genome object containing plant protein sequences with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
+    Annotate a Genome object with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
 tooltip  : |
-    Annotate a Genome object containing plant protein sequences with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
+    Annotate a Genome object with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
 
 screenshots :
     []
@@ -24,7 +24,7 @@ method-suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    input_genome :
+    param0 :
         ui-name : |
             Genome ID
         short-hint : |
@@ -33,7 +33,7 @@ parameters :
             Source genome ID [4.1]
 
 
-    output_genome :
+    param1 :
         ui-name : |
             Output Genome ID
         short-hint : |
@@ -43,8 +43,8 @@ parameters :
 
 
 description : |
-    Annotate a Genome object containing plant protein sequences with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
+    Annotate a Genome object with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
 
 
 technical-description : |
-    Annotate a Genome object containing plant protein sequences with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
+    Annotate a Genome object with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace. [4]
