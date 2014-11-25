@@ -24,7 +24,7 @@ method-suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    param0 :
+    input_genome :
         ui-name : |
             Genome ID
         short-hint : |
@@ -33,7 +33,7 @@ parameters :
             Source genome ID [4.1]
 
 
-    param1 :
+    output_genome :
         ui-name : |
             Output Genome ID
         short-hint : |
