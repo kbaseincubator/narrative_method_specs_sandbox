@@ -1,7 +1,7 @@
 #
 # Define basic display information
 #
-name     : Build and Gapfill an FBA Model for a Plant Genome
+name     : Build and Gapfill a Plant FBA Model
 subtitle : |
     Starting with an Annotated Genome object containing plant transcripts, build a metabolic model and add reactions until the model can predict growth.
 tooltip  : |
@@ -22,10 +22,10 @@ header : |
     <a href="https://kbase.us/developer-zone/documentation/fba-modeling-service/" target="_blank">kbase FBA tools</a>.</p>
 
 step-descriptions :
+    step_1 : |
+        additional instructions/details regarding the step with id step_1
     step_2 : |
         additional instructions/details regarding the step with id step_2
-    step_3 : |
-        additional instructions/details regarding the step with id step_3
 
 description : |
     <p>In this app, you can build a model for your plant genome.</p>
