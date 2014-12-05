@@ -40,26 +40,22 @@
           "target_property": "in_genome_id"
         },
         {
-          "narrative_system_variable": "workspace",
-          "target_property": "in_genome_ws"
-        },
-        {
           "input_parameter": "output_genome",
           "target_property": "out_genome_id"
         },
         {
           "narrative_system_variable": "workspace",
-          "target_property": "out_genome_ws"
+          "target_property": "workspace"
         }
       ],
       "output_mapping" : [
         {
           "input_parameter": "output_genome",
-          "target_property": "ws_id"
+          "target_property": "new_genome_id"
         },
         {
           "narrative_system_variable": "workspace",
-          "target_property": "ws_name"
+          "target_property": "workspace"
         }
       ]
     }
