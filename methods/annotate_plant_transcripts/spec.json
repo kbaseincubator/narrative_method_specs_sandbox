@@ -51,10 +51,6 @@
           "narrative_system_variable": "workspace",
           "target_property": "out_genome_ws"
         },
-        {
-          "constant_value": 1,
-          "target_property": "seed_annotation_only"
-        }
       ],
       "output_mapping" : [
         {
@@ -65,12 +61,7 @@
           "narrative_system_variable": "workspace",
           "target_property": "ws_name"
         },
-        {
-          "service_method_output_path": [],
-          "target_property": "job_id"
-        }
       ]
     }
   },
-  "job_id_output_field": "job_id"
 }
