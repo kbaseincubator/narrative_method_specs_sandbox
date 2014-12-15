@@ -30,10 +30,9 @@
     }
   } ],
   "behavior" : {
-    "service-mapping" : {
-      "url" : "https://kbase.us/services/genome_annotation",
-      "script_module" : "genome_annotation",
-      "script_name" : "rast-annotate-proteins-kmer-v1",
+    "script-mapping" : {
+      "module" : "genome_annotation",
+      "name" : "rast-annotate-proteins-kmer-v1",
       "input_mapping" : [
         {
           "input_parameter": "input_genome",
