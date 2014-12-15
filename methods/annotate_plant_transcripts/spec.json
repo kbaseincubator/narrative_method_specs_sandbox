@@ -46,11 +46,11 @@
         {
           "narrative_system_variable": "workspace",
           "target_property": "workspace"
-        }
+        },
         {
           "constant_value": 8,
           "target_property": "kmer-size"
-        }
+        },
         {
           "constant_value": "Release70",
           "target_property": "dataset-name"
