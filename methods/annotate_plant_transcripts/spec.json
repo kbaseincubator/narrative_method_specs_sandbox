@@ -32,7 +32,7 @@
   "behavior" : {
     "script-mapping" : {
       "module" : "genome_annotation",
-      "name" : "rast-annotate-proteins-kmer-v1",
+      "script" : "rast-annotate-proteins-kmer-v1",
       "input_mapping" : [
         {
           "input_parameter": "input_genome",
