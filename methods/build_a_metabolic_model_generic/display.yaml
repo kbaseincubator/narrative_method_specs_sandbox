@@ -24,7 +24,7 @@ method-suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    param0 :
+    input_genome :
         ui-name : |
             Genome
         placeholder : |
@@ -35,7 +35,7 @@ parameters :
             A genome (set of DNA contigs) including structural and functional annotations
 
 
-    param1 :
+    output_model :
         ui-name : |
             Output Metabolic Model Name
         short-hint : |
