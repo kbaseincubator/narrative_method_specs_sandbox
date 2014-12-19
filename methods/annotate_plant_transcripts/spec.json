@@ -33,7 +33,7 @@
     "script-mapping" : {
       "module" : "genome_annotation",
       "script" : "rast-annotate-proteins-kmer-v1",
-      "has_files" : 1,
+      "has_files" : "1",
       "input_mapping" : [
         {
           "input_parameter": "input_genome",
