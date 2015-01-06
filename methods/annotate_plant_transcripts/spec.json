@@ -45,10 +45,6 @@
           "target_property": "output"
         },
         {
-          "narrative_system_variable": "workspace",
-          "target_property": "workspace"
-        },
-        {
           "constant_value": "8",
           "target_property": "kmer-size"
         },
