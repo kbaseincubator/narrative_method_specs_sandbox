@@ -29,28 +29,39 @@
       "valid_ws_types" : [ "KBaseGenomes.Genome" ],
       "is_output_name":true
     }
+  }, {
+    "id": "kmer_v1_parameters",
+    "optional":false,
+    "advanced":true,
+    "allow_multiple":false,
+    "default_values":["1"],
+    "field_type" : "checkbox",
+    "checkbox_options":{
+      "checked_value": 1,
+      "unchecked_value": 0
+    }
   } ],
   "behavior" : {
-    "script-mapping" : {
+    "service-mapping" : {
+      "url" : "",
       "module" : "genome_annotation",
-      "script" : "rast-annotate-proteins-kmer-v1",
-      "has_files" : true,
+      "method" : "annotate_genome",
       "input_mapping" : [
         {
           "input_parameter": "input_genome",
-          "target_property": "input"
+          "target_property": "input_genome"
         },
         {
           "input_parameter": "output_genome",
-          "target_property": "output"
+          "target_property": "output_genome"
         },
         {
-          "constant_value": "8",
-          "target_property": "kmer-size"
+          "input_parameter": "kmer_v1_parameters",
+          "target_property": "kmer_v1_parameters"
         },
         {
-          "constant_value": "Release70",
-          "target_property": "dataset-name"
+          "narrative_system_variable": "workspace",
+          "target_property": "workspace"
         }
       ],
       "output_mapping" : [
