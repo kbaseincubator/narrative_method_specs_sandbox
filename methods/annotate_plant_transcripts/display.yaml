@@ -40,6 +40,14 @@ parameters :
             ID of newly annotated Genome. This may be the same as the Source Genome ID.
         long-hint  : |
             ID of newly annotated Genome. This may be the same as the Source Genome ID.
+
+    kmer_v1_parameters :
+        ui-name : |
+            Kmer v1 parameters
+        short-hint : |
+            Analysis step to include in annotation pipieline
+        long-hint  : |
+            Analysis step to include in annotation pipieline
  
 description : |
     Annotate a Genome object with structural and functional gene annotations. The annotation job may run for an hour or longer. When the annotation job finishes, the annotated Genome object will be stored in your workspace.
