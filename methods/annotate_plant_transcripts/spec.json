@@ -33,7 +33,7 @@
   "behavior" : {
     "service-mapping" : {
       "url" : "",
-      "module" : "genome_annotation",
+      "name" : "genome_annotation",
       "method" : "annotate_genome",
       "input_mapping" : [
         {
