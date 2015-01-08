@@ -29,17 +29,6 @@
       "valid_ws_types" : [ "KBaseGenomes.Genome" ],
       "is_output_name":true
     }
-  }, {
-    "id": "kmer_v1_parameters",
-    "optional":false,
-    "advanced":true,
-    "allow_multiple":false,
-    "default_values":["1"],
-    "field_type" : "checkbox",
-    "checkbox_options":{
-      "checked_value": 1,
-      "unchecked_value": 0
-    }
   } ],
   "behavior" : {
     "service-mapping" : {
@@ -56,7 +45,7 @@
           "target_property": "output_genome"
         },
         {
-          "input_parameter": "kmer_v1_parameters",
+          "constant_value": "1",
           "target_property": "kmer_v1_parameters"
         },
         {
