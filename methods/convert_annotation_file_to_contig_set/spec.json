@@ -21,7 +21,7 @@
     }
   }],
   "behavior" : {
-    "python_class" : "foo",
-    "python_function" : "bar"
+    "python_class" : "Transform Service",
+    "python_function" : "Assy to ContigSet"
   }
 }
