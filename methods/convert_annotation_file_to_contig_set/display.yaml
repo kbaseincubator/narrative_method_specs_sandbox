@@ -31,6 +31,13 @@ parameters :
             Input assembly file to be converted
         long-hint  : |
             Input assembly file to be converted
+    output_contigset :
+        ui-name : |
+            Name for output ContigSet
+        short-hint : |
+            ContigSet name
+        long-hint  : |
+            Name for output ContigSet
 
 description : |
     Convert a KBaseFile.AssemblyFile to a KBaseGenomes.ContigSet
