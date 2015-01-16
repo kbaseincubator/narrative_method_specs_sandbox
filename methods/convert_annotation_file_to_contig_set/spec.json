@@ -23,5 +23,6 @@
   "behavior" : {
     "python_class" : "Transform Service",
     "python_function" : "Assy to ContigSet"
-  }
+  },
+  "job_id_output_field": "jobID"
 }
