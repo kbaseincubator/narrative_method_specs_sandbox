@@ -1,0 +1,77 @@
+#
+# Define basic display information
+#
+name     : Generate Heatmap from Abundance Data
+subtitle : |
+    Generate a heatmap-dendrogram from annotation abundance data.
+tooltip  : |
+    Generate a heatmap-dendrogram from annotation abundance data.
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_profile :
+        ui-name : |
+            Input Profile
+        short-hint : |
+            object name of input abundance profile
+        long-hint  : |
+            object name of input abundance profile
+
+
+    output_heatmap :
+        ui-name : |
+            Output Heatmap
+        short-hint : |
+            object name of output heatmap
+        long-hint  : |
+            object name of output heatmap
+
+
+    distance :
+        ui-name : |
+            Distance
+        short-hint : |
+            distance / dissimilarity metric
+        long-hint  : |
+            distance / dissimilarity metric
+
+
+    cluster :
+        ui-name : |
+            Cluster
+        short-hint : |
+            cluster method
+        long-hint  : |
+            cluster method
+
+
+    name :
+        ui-name : |
+            Label by Name
+        short-hint : |
+            label by metagenome name and not ID
+        long-hint  : |
+            label by metagenome name and not ID
+
+
+description : |
+    Generate a heatmap-dendrogram from annotation abundance data.
+
+
+technical-description : |
+    Generate a heatmap-dendrogram from annotation abundance data.

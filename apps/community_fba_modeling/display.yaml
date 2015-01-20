@@ -1,35 +1,31 @@
 #
 # Define basic display information
 #
-name     : Community FBA Modeling
+name     : Reconstruct Community Metabolic Model
 subtitle : |
-    In this App, you can create an fba model for a microbial community and gapfill it.
+    Reconstruct a compartmentalized metabolic model of a community using abundance data.
 tooltip  : |
-    In this App, you can create an fba model for a microbial community and gapfill it.
+    Reconstruct a compartmentalized metabolic model of a community using abundance data.
 
 screenshots : []
 
 
 header : |
-    Instructions appear here.
+    <p>The &quot;Reconstruct Community Metabolic Model&quot; app generates a community metabolic model to be used with model-associated apps in KBase (e.g., &quot;Run Flux Balance Analysis&quot;) to predict fluxes. To begin, the user may either upload a set of metabolic models or select a set of public metabolic models already present in KBase. KBase will then assemble these models into a single compartmentalized community model. The user may also select or upload a growth condition to which the community model will be gap filled.</p>
 
 step-descriptions :
+    step_1 : |
+        additional instructions/details regarding the step with id step_1
     step_2 : |
         additional instructions/details regarding the step with id step_2
-    step_3 : |
-        additional instructions/details regarding the step with id step_3
 
 
 description : |
-    <p>In this app, you can build an fba model for your microbial community.</p>
+    <p>The &quot;Reconstruct Community Metabolic Model&quot; app generates a community metabolic model to be used with model-associated apps in KBase (e.g., &quot;Run Flux Balance Analysis&quot;) to predict fluxes. To begin, the user may either upload a set of metabolic models or select a set of public metabolic models already present in KBase. KBase will then assemble these models into a single compartmentalized community model. The user may also select or upload a growth condition to which the community model will be gap filled.</p>
 
 
 technical-description : |
-    <b> this is the technical description of the test app</b> <br>
-    
-    <pre>some code here</pre>
-    
-    yada, yada, yada <br>
+    &nbsp;
     
     
     

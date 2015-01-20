@@ -1,0 +1,175 @@
+#
+# Define basic display information
+#
+name     : Run Flux Balance Analysis
+
+tooltip  : |
+    This method uses Flux Balance Analysis (FBA) to predict metabolic fluxes in a metabolic model of an organism grown on a given media.
+
+screenshots :
+    - run_flux_balance_analysis.png
+    - run_flux_balance_analysis_output.png
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_model :
+        ui-name : |
+            Metabolic Model
+        short-hint : |
+            User selects the model on which to run FBA
+        long-hint  : |
+            User selects the model on which to run FBA
+
+    input_media :
+        ui-name : |
+            Growth Condition
+        short-hint : |
+            User selects a media condition on which to simulate growth of the organism. If nothing is selected, the complete media is used by default
+        long-hint  : |
+            User selects a media condition on which to simulate growth of the organism. If nothing is selected, the complete media is used by default
+
+    output_fba :
+        ui-name : |
+            Output FBA Result ID
+        short-hint : |
+            User selects name in which to store FBA results
+        long-hint  : |
+            User selects name in which to store FBA results
+
+    fva :
+        ui-name : |
+            Flux Variability Analysis?
+        short-hint : |
+            Check this box to minimize and maximize all reaction fluxes, enabling reaction classification
+        long-hint  : |
+            Check this box to minimize and maximize all reaction fluxes, enabling reaction classification
+
+    simulate_ko :
+        ui-name : |
+            Simulate All Single KO?
+        short-hint : |
+            User could simulate FBA on single gene knockouts for all the genes in the model identifying essential reactions that carry fluxes on a given media condition
+        long-hint  : |
+            User could simulate FBA on single gene knockouts for all the genes in the model identifying essential reactions that carry fluxes on a given media condition
+
+    minimize_flux :
+        ui-name : |
+            Minimize Flux?
+        short-hint : |
+            Default is 0, which means "no"; by default, FBA will attempt to maximize its objective (usually biomass growth). If this option is checked which means "yes", FBA will attempt to minimize the sum of all fluxes following the biomass optimization
+        long-hint  : |
+            Default is 0, which means "no"; by default, FBA will attempt to maximize its objective (usually biomass growth). If this option is checked which means "yes", FBA will attempt to minimize the sum of all fluxes following the biomass optimization
+
+    gene_ko :
+        ui-name : |
+            Gene Knockouts
+        short-hint : |
+            User may add gene knockout information one at a time using “add another gene knockout” button. Gene IDs should be in the same format that appears in your metabolic model (e.g., kb|g.220339.CDS.2927)
+        long-hint  : |
+            User may add gene knockout information one at a time using “add another gene knockout” button. Gene IDs should be in the same format that appears in your metabolic model (e.g., kb|g.220339.CDS.2927)
+
+    reaction_ko :
+        ui-name : |
+            Reaction Knockouts
+        short-hint : |
+            User may add reaction knockout information one at a time using “add another reaction knockout” button. Reaction IDs should be in the same format that appears in your metabolic model (e.g rxn00002_c0)
+        long-hint  : |
+            User may add reaction knockout information one at a time using “add another reaction knockout” button. Reaction IDs should be in the same format that appears in your metabolic model (e.g rxn00002_c0)
+
+    additional_compounds :
+        ui-name : |
+            Additional Compounds
+        short-hint : |
+            Specify additional compounds to add to media one at a time by using “add another additional compound” button
+        long-hint  : |
+            Specify additional compounds to add to media one at a time by using “add another additional compound” button
+    
+    maxc_uptake :
+        ui-name : |
+            Max Carbon Uptake
+        short-hint : |
+            Maximum number of moles of carbon permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+        long-hint  : |
+            Maximum number of moles of carbon permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+
+    maxn_uptake :
+        ui-name : |
+            Max Nitrogen Uptake
+        short-hint : |
+            Maximum number of moles of nitrogen permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+        long-hint  : |
+            Maximum number of moles of nitrogen permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+
+    maxs_uptake :
+        ui-name : |
+            Max Sulfur Uptake
+        short-hint : |
+            Maximum number of moles of sulfur permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+        long-hint  : |
+            Maximum number of moles of sulfur permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+    
+    maxp_uptake :
+        ui-name : |
+            Max Phosphate Uptake
+        short-hint : |
+            Maximum number of moles of phosphate permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+        long-hint  : |
+            Maximum number of moles of phosphate permitted for uptake (default uptake rates varies from 0 to 100 for all nutrients)
+    
+    input_prom :
+        ui-name : |
+            PROM Constraints
+        short-hint : |
+            Not Applicable - Obsolete 
+        long-hint  : |
+            Not Applicable - Obsolete 
+
+description : |
+    
+    <p>A metabolic model of a single-celled organism (see Build Metabolic Model) can be used to carry out Flux Balance Analysis (FBA). FBA is a constraint-based method that estimates growth-optimal fluxes through all reactions in the metabolic network, thereby making it possible to estimate the growth rate of an organism (the rate of biomass production) or the rate of production of a given metabolic output on a specified media.</p>
+    <p>To perform FBA, begin by specifying the media on which you will grow your organism. In KBase, the media object contains the chemical compounds on which you want to analyze the growth of your organism. KBase provides users with more than 500 commonly used media conditions to use when running FBA. These can be found by in the Narrative Interface under the Analyze heading by selecting &quot;+ Add Data&quot; and then navigating to the &quot;Public&quot; tab. In addition, users can build their own custom media formulations.</p>
+    
+    <p><strong>Inputs</strong>
+    
+    <p><i>FBAModel</i><br>
+    The metabolic network model consisting of genome-wide set of stoichiometric reactions, compounds, and the weighted components of the biomass on which you wish to carry out Flux Balance Analysis</p>
+    
+    <p><i>Media<br>
+    Media specifies the set of chemical compounds organism can use for its growth</p>
+    </p>
+    
+    <p><strong>Outputs</strong>
+    
+    <p><i>Output FBA Result</i><br>
+    The fluxes for all reactions in the metabolic model and the predicted growth of the biomass according to the FBA model</p>
+    </p>
+    
+    <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
+    Chris Henry, Janaka Edirisinghe, Sam Seaver, Neal Conrad. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
+
+technical-description : | 
+    &nbsp;
+
+publications :
+    -
+        pmid: 20802497
+        display-text: |
+            Henry CS, DeJongh M, Best AA, Frybarger PM, Linsay B, et al. (2010) High-throughput generation, optimization and analysis of genome-scale metabolic models. Nat Biotechnol 28: 977-982. doi:10.1038/nbt.1672.
+        link: http://www.ncbi.nlm.nih.gov/pubmed/20802497
+    -
+        display-text: |
+            Orth JD, Thiele I, Palsson BØ (2010) What is flux balance analysis? Nature Biotechnology 28: 245–248. doi:10.1038/nbt.1614.
+        link: http://www.nature.com/nbt/journal/v28/n3/abs/nbt.1614.html
+ 

@@ -1,0 +1,27 @@
+name     : SINGLE END FASTQ
+subtitle : none
+tooltip  : Upload a SingleEndLibrary object from FASTQ-file into your workspace.
+
+screenshots :
+    []
+
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+parameters :
+    fastqFile :
+        ui-name : READ PAIR FASTQ
+        short-hint : Short read file of single end library in FASTQ format.
+        long-hint  : none
+
+    outputObject :
+        ui-name : OUTPUT OBJECT ID
+        short-hint : Target object ID.
+        long-hint  : none
+
+description : none
+
+technical-description : none

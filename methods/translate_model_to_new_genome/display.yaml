@@ -1,0 +1,69 @@
+#
+# Define basic display information
+#
+name     : Translate Model to New Genome
+subtitle : |
+    Translate an existing metabollic to model a new genome based on bi-directional best hits.    
+tooltip  : |
+    Translate an existing metabollic to model a new genome based on bi-directional best hits.
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_model :
+        ui-name : |
+            FBA Model ID
+        short-hint : |
+            an FBA model id from first genome
+        long-hint  : |
+            an FBA model id from first genome
+
+
+    input_protcomp :
+        ui-name : |
+            Proteome Comparison ID
+        short-hint : |
+            Proteome comparison ID
+        long-hint  : |
+            Proteome comparison ID
+
+
+    output_model :
+        ui-name : |
+            Translated Model ID
+        short-hint : |
+            ID to which translated model should be saved
+        long-hint  : |
+            ID to which translated model should be saved
+
+
+    keep_nogene_rxn :
+        ui-name : |
+            Keep No-gene Reactions
+        short-hint : |
+            check box to keep reactions with no genes associated
+        long-hint  : |
+            check box to keep reactions with no genes associated
+
+
+description : |
+    Translate an existing metabollic to model a new genome based on bi-directional best hits.
+
+
+technical-description : |
+    Translate an existing metabollic to model a new genome based on bi-directional best hits.
+    
