@@ -24,7 +24,7 @@
     "none" : {
       "output_mapping" : [
         {
-          "input_parameter": "KBaseFBA.FBAModel",
+          "constant_value": "KBaseFBA.FBAModel",
           "target_property": "type"
         },
         {
