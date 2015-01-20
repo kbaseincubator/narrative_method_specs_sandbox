@@ -34,8 +34,7 @@
         {
           "narrative_system_variable": "workspace",
           "target_property": "ws"
-        },
-
+        }
       ]
     }
   }
