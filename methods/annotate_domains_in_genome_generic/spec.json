@@ -95,7 +95,7 @@
         {
           "narrative_system_variable": "workspace",
           "target_property": "out_workspace"
-        },
+        }
       ],
       "output_mapping" : [
         {
