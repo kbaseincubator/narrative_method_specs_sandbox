@@ -73,7 +73,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "http://140.221.67.203:8123/",
+      "url" : "http://140.221.67.203:8123",
       "name" : "KBaseGeneFamilies",
       "method" : "search_domains",
       "input_mapping" : [
@@ -107,11 +107,15 @@
           "target_property": "workspaceID"
         },
         {
+          "constant_value": "500px",
+          "target_property": "height"
+        },
+        {
           "service_method_output_path": [],
           "target_property": "jobID"
         }
       ]
     }
   },
-  "job_id_output_field": "job_id"
+  "job_id_output_field": "jobID"
 }
