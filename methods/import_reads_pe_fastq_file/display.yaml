@@ -1,0 +1,47 @@
+name     : PAIRED END FASTQ
+subtitle : none
+tooltip  : Upload a PairedEndLibrary object from FASTQ-file(s) into your workspace.
+
+screenshots :
+    []
+
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+parameters :
+    fastqFile1 :
+        ui-name : FASTQ FILE
+        short-hint : First short read file of a paired end library in FASTQ format.
+        long-hint  : none
+
+    fastqFile2 :
+        ui-name : FASTQ FILE
+        short-hint : Second short read file of a paired end library in FASTQ format. Not needed in an interleaved library.
+        long-hint  : none
+
+    insertSizeMean :
+        ui-name : INSERT SIZE MEAN
+        short-hint : Insert size mean
+        long-hint  : none
+
+    insertSizeStDev :
+        ui-name : INSERT SIZE STDEV
+        short-hint : Insert size standard deviation
+        long-hint  : none
+
+    readOrientationOutward :
+        ui-name : READS ORIENTATION OUTWARD
+        short-hint : Reads in a pair point outward
+        long-hint  : none
+
+    outputObject :
+        ui-name : OUTPUT OBJECT ID
+        short-hint : Target object ID.
+        long-hint  : none
+
+description : none
+
+technical-description : none

@@ -31,13 +31,14 @@
     }
   }, {
     "id" : "param2",
-    "optional" : false,
+    "optional" : true,
     "advanced" : false,
     "allow_multiple" : false,
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ "KBaseTrees.Tree" ]
+      "valid_ws_types" : [ "KBaseTrees.Tree" ],
+      "is_output_name":true
     }
   } ],
   "behavior" : {
