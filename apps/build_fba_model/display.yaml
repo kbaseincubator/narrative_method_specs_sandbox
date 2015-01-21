@@ -7,7 +7,7 @@ subtitle : |
 tooltip  : |
     Construct a genome-scale metabolic model and gap-fill it to simulate growth in a specified growth condition. 
 
-screenshots : |
+screenshots :
     - reconstruct_genome-scale_metabolic_model_input.png
 
 
