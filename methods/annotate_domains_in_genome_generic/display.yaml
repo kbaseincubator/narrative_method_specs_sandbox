@@ -51,8 +51,8 @@ parameters :
 
 
 description : |
-    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your data store. [4]
+    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a DomainAnnotation object will be stored in your data store. [4]
 
 
 technical-description : |
-    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your data store. This method will find domains from one or more the following domain databases: Pfam, TIGRFAMs, COG, SMART, and NCBI CDD [4]
+    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a DomainAnnotation object will be stored in your data store. This method will find domains from one or more the following domain databases: Pfam, TIGRFAMs, COG, SMART, and NCBI CDD [4]
