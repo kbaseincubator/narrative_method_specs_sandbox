@@ -2,7 +2,7 @@
 # Define basic display information
 #
 name     : New Example Method
-subtitle  : |
+tooltip  : |
     A method that shows off a few new features (as of Jan 21, 2015) of the method store
 
 screenshots :
