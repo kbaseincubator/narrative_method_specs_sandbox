@@ -3,9 +3,9 @@
 #
 name     : Annotate Domains in a Genome
 subtitle : |
-    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your workspace. [4]
+    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a DomainAnnotation object with the annotated domains will be stored in your data store. [4]
 tooltip  : |
-    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your workspace. [4]
+    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a DomainAnnotation object with the annotated domains will be stored in your data store. [4]
 
 screenshots :
     []
@@ -32,20 +32,27 @@ parameters :
         long-hint  : |
             Genome to annotate.  It must already have annotated genes [4.1]
 
-
     param1 :
         ui-name : |
-            Output Domains ID
+            Domain Model Set
         short-hint : |
-            This object with annotated Domains will be stored in your workspace [4.2]
+            Set of domain models or libraries to use [4.2]
         long-hint  : |
-            This object with annotated Domains will be stored in your workspace [4.2]
+            Set of domain models or libraries to use [4.2]
+
+    param2 :
+        ui-name : |
+            Output DomainAnnotation ID
+        short-hint : |
+            This object with annotated domains will be stored in your data store [4.3]
+        long-hint  : |
+            This object with annotated domains will be stored in your data store [4.3]
 
 
 
 description : |
-    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your workspace. [4]
+    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your data store. [4]
 
 
 technical-description : |
-    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your workspace. This method will find domains from the following domain databases: Pfam, TIGRFAMs, COG, SMART, and NCBI CDD [4]
+    Annotate protein domains in a Genome object.  The Genome must already have annotated genes.  The annotation job may run for an hour or longer.  When the annotation job finishes, a Domains object will be stored in your data store. This method will find domains from one or more the following domain databases: Pfam, TIGRFAMs, COG, SMART, and NCBI CDD [4]
