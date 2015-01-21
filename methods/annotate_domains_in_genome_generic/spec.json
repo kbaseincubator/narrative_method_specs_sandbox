@@ -30,33 +30,33 @@
         {
 	  "id": "all",
           "value": "KBasePublicGeneDomains/All",
-          "display": "All domain libraries",
+          "display": "All domain libraries"
         },
         {
 	  "id": "cogs",
           "value": "KBasePublicGeneDomains/COGs-only",
-          "display": "COGs 1.0 (from CDD 3.12) domains only",
+          "display": "COGs 1.0 (from CDD 3.12) domains only"
         },
         {
 	  "id": "cdd",
           "value": "KBasePublicGeneDomains/CDD-only",
-          "display": "NCBI-curated CDD 3.12 domains only",
+          "display": "NCBI-curated CDD 3.12 domains only"
         },
         {
 	  "id": "smart",
           "value": "KBasePublicGeneDomains/SMART-only",
-          "display": "SMART 6.0 (from CDD 3.12) domains only",
+          "display": "SMART 6.0 (from CDD 3.12) domains only"
         },
         {
 	  "id": "pfam",
           "value": "KBasePublicGeneDomains/Pfam-only",
-          "display": "Pfam 27 domains only",
+          "display": "Pfam 27 domains only"
         },
         {
 	  "id": "tigrfams",
           "value": "KBasePublicGeneDomains/TIGRFAMs-only",
-          "display": "TIGRFAM 15 domains only",
-        },
+          "display": "TIGRFAM 15 domains only"
+        }
       ]
     }
   }, {
