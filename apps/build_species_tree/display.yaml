@@ -7,7 +7,7 @@ subtitle : |
 tooltip  : |
     Determine evolutionary relationships between organisms by calculating a tree combining user-suplied genomes with closely related public genomes in KBase.
 
-screenshots : |
+screenshots :
     - insert_genomes_into_species_tree_input.png
 
 

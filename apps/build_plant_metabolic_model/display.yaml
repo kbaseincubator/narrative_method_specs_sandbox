@@ -7,7 +7,7 @@ subtitle : |
 tooltip  : |
     Build a metabolic model for a plant based on annotated sequences of mRNA transcripts and carry out Flux Balance Analysis (FBA) of the model.
 
-screenshots : |
+screenshots :
     - build_plant_metabolic_model_and_run_fba_input.png
 
 header : |

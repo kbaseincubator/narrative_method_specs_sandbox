@@ -7,7 +7,7 @@ subtitle : |
 tooltip  : |
     Assemble NGS reads into contigs and then perform structural and functional annotation of the assembled contigs.
 
-screenshots : |
+screenshots :
     - assemble_and_annotate_microbial_genome_input.png
 
 

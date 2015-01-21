@@ -8,7 +8,7 @@ subtitle : |
 tooltip  : |
     Propagate genome-scale metabolic model to closely related genome.
 
-screenshots : |
+screenshots :
     - propagate_genome-scale_model_to_close_genome_input.png
 
 
