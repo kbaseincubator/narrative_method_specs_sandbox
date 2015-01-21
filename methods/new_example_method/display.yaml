@@ -1,0 +1,62 @@
+#
+# Define basic display information
+#
+name     : New Example Method
+subtitle  : |
+    A method that shows off a few new features (as of Jan 21, 2015) of the method store
+
+screenshots :
+    []
+
+icon: icon.png
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            [test_app_1]
+        next :
+            [test_app_1]
+    methods:
+        related :
+            [test_method_3]
+        next :
+            [test_method_1, test_method_2]
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    assembly_input :
+        ui-name : |
+            AssemblyInput
+        short-hint : |
+            the assembly input object
+        long-hint  : |
+            the assembly input object
+        placeholder : |
+            select an AssemblyInput object
+
+
+fixed-parameters :
+    -
+        ui-name : |
+            FixedParam1
+        description : |
+            a fixed parameter
+    
+    -
+        ui-name : |
+            FixedParam2
+        description : |
+            another fixed parameter
+        
+
+description : |
+    <p>Method suggestions are new</p>
+    <p>The fixed parameter block is new</p>
+    <p>Fixed parameters are new</p>
+    <p>Icon is new</p>
