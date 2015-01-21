@@ -17,7 +17,7 @@
     "field_type" : "text",
     "text_options" : {
       "valid_ws_types" : [ "KBaseGenomes.Genome" ]
-    },
+    }
   }, {
     "id" : "param1",
     "optional" : false,
@@ -58,7 +58,7 @@
           "display": "TIGRFAM 15 domains only",
         },
       ]
-    } ,
+    }
   }, {
     "id" : "param2",
     "optional" : false,
@@ -69,7 +69,7 @@
     "text_options" : {
       "valid_ws_types" : [ "KBaseGeneFamilies.DomainAnnotation" ],
       "is_output_name":true
-    },
+    }
   } ],
   "behavior" : {
     "service-mapping" : {
