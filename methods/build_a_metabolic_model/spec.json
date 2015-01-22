@@ -100,7 +100,7 @@
           "target_property": "type"
         },
         {
-          "input_parameter": "param0",
+          "input_parameter": "output_model",
           "target_property": "obj"
         },
         {
