@@ -3,7 +3,7 @@
 #
 name     : Build Metabolic Model
 tooltip  : |
-    Generate a draft metabolic model based on an annotated genome.
+    Generate a draft metabolic model based on an annotated genome. 
 
 screenshots :
 
@@ -14,11 +14,18 @@ screenshots :
 #
 # Define the set of other narrative methods that should be suggested to the user.
 #
-method-suggestions :
-    related :
-        []
-    next :
-        []
+suggestions :
+    apps:
+        related :
+            [test_app_1]
+        next :
+            [test_app_1]
+    methods:
+        related :
+            [test_method_3]
+        next :
+            [test_method_1, test_method_2]
+
 
 
 #
@@ -29,19 +36,19 @@ parameters :
         ui-name : |
             Genome
         short-hint : |
-            Genome ID for the model to be generated
+            A genome (set of DNA contigs) including structural and functional annotations
         description  : |
-            Genome ID for the model to be generated
+            A genome (set of DNA contigs) including structural and functional annotations
         placeholder : |
             Genome name
 
     output_model :
         ui-name : |
-            FBAModel
+            FBA Model
         short-hint : |
-            The name of the newly generated metabolic model 
+            A draft metabolic network model consisting of stoichiometric reactions, compounds, and the weighted components of the biomass  
         description  : |
-            The name of the newly generated metabolic model
+            A draft metabolic network model consisting of stoichiometric reactions, compounds, and the weighted components of the biomass 
         placeholder : |
             Output model Name
            
