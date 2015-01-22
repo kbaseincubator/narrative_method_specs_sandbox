@@ -48,7 +48,7 @@ parameters :
 
     output_pangenome :
         ui-name : |
-            Pangenome ID
+            Pangenome
         short-hint : |
             A list of all distinct protein families identified in a set of input genome sequences, as well as the IDs of the proteins present in each family
         long-hint : |
