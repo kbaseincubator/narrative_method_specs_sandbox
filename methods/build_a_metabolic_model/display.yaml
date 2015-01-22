@@ -4,7 +4,6 @@
 name     : Build Metabolic Model
 tooltip  : |
     Generate a draft metabolic model based on an annotated genome. 
-
 screenshots :
 
     - build_metabolic_model_input.png
@@ -87,7 +86,7 @@ fixed-parameters :
 
 
 description : |
-    <p>A draft metabolic model serves as a an advanced starting point for subsequent curation and gapfilling.</p> 
+    <p>A draft metabolic model serves as an advanced starting point for subsequent curation and gapfilling.</p> 
     
     <p>A genome-scale metabolic network of chemical reactions occurring within a living organism is primarily reconstructed from protein functional annotations originally derived from literature and subsequently propagated from genome to genome by sequence similarity. When a genome is functionally annotated, its metabolic genes are mapped onto biochemical reactions. This information is integrated with data on reaction stoichiometry, subcellular localization, biomass composition, estimation of energy requirements (directionality of reactions), and other constraints into a detailed stoichiometric model of metabolism. This model can be subsequently used for detailed analysis of the metabolic potential of the organism using constraint-based modeling approaches such as Flux Balance Analysis (FBA).</p>
     
