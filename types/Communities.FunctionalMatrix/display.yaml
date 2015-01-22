@@ -5,7 +5,7 @@ name     : Abundance Matrix
 subtitle : Functional Matrix object
 tooltip  : Functional Matrix object
 
-icon : contigset.jpg
+icon : none
 
 description : |
     <p>This type describes a abundance matrix.</p>

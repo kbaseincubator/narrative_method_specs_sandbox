@@ -5,7 +5,7 @@ name     : Abundance Profile
 subtitle : Taxonomic Profile object
 tooltip  : Taxonomic Profile object
 
-icon : contigset.jpg
+icon : none
 
 description : |
     <p>This type describes a abundance profile.</p>
