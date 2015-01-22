@@ -8,7 +8,8 @@ tooltip  : |
     Retrieve and normalize functional abundance data for selected metagenomes. 
 
 
-screenshots : []
+screenshots :
+    - build_and_normalize_metagenomic_functional_abundance_data_input.png
 
 
 header : |

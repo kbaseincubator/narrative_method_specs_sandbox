@@ -7,7 +7,8 @@ subtitle : |
 tooltip  : |
     Conduct a detailed comparison of genomes on the basis of protein sequence similarity and function.
 
-screenshots : []
+screenshots :
+    - compare_genomes_from_pangenome_input.png
 
 
 header : |

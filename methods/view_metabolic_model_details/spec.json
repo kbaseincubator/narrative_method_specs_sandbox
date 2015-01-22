@@ -29,7 +29,7 @@
         },
         {
           "input_parameter": "param0",
-          "target_property": "name"
+          "target_property": "obj"
         },
         {
           "narrative_system_variable": "workspace",

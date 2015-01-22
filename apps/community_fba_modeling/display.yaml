@@ -7,7 +7,8 @@ subtitle : |
 tooltip  : |
     Reconstruct a compartmentalized metabolic model of a community using abundance data.
 
-screenshots : []
+screenshots :
+    - reconstruct_community_metabolic_model_input.png
 
 
 header : |
