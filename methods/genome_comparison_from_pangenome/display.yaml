@@ -7,7 +7,7 @@ tooltip  : |
     Compare isofunctional and homologous gene families for all genomes in the pangenome.
 
 screenshots :
-    []
+    - genome_comparison_from_pangenome_input.png
 
 icon: icon.png
 
