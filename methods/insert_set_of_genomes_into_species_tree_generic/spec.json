@@ -48,8 +48,7 @@
       "input_mapping" : [
         {
           "input_parameter": "param0",
-          "target_property": "genomeset_ref",
-          "target_type_transform": "ref"
+          "target_property": "new_genomes"
         },
         {
           "input_parameter": "param1",
