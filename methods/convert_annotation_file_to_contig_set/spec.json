@@ -34,23 +34,7 @@
   }],
   "behavior" : {
     "python_class" : "Transform Service",
-    "python_function" : "Assy to ContigSet",
-    "service-mapping" : {
-      "url" : "blank",
-      "name" : "blank",
-      "method" : "blank",
-      "input_mapping" : [ ],
-      "output_mapping" : [
-        {
-          "input_parameter": "output_contigset",
-          "target_property": "id"
-        },
-        {
-          "narrative_system_variable": "workspace",
-          "target_property": "ws"
-        }
-      ]
-    }
+    "python_function" : "Assy to ContigSet"
   },
   "job_id_output_field": "jobID"
 }
