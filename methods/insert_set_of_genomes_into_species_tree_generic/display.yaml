@@ -26,11 +26,11 @@ method-suggestions :
 parameters :
     param0 :
         ui-name : |
-            Genome Set ID
+            Genome ID
         short-hint : |
-            a Genome Set to insert into the tree
+            a Genome to insert into the tree
         long-hint  : |
-            a Genome Set to insert into the tree
+            a Genome to insert into the tree
 
 
     param1 :
