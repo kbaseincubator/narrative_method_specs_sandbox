@@ -60,3 +60,10 @@ description : |
     <p>The fixed parameter block is new</p>
     <p>Fixed parameters are new</p>
     <p>Icon is new</p>
+    
+publications :
+    -
+        pmid: #######
+        display-text: |
+            PLOS Formatted citation
+        link: URL link
