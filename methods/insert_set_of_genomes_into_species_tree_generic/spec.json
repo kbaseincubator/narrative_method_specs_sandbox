@@ -49,7 +49,6 @@
         {
           "input_parameter": "param0",
           "target_property": "new_genomes",
-          "target_type_transform": "ref"
         },
         {
           "input_parameter": "param1",
