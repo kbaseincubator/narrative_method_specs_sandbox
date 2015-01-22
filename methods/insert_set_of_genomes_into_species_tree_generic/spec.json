@@ -48,7 +48,7 @@
       "input_mapping" : [
         {
           "input_parameter": "param0",
-          "target_property": "new_genomes",
+          "target_property": "new_genomes"
         },
         {
           "input_parameter": "param1",
