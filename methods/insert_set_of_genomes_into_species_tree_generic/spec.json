@@ -12,11 +12,11 @@
     "id" : "param0",
     "optional" : false,
     "advanced" : false,
-    "allow_multiple" : false,
+    "allow_multiple" : true,
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ "KBaseSearch.GenomeSet" ]
+      "valid_ws_types" : [ "KBaseGenomes.Genome" ]
     }
   }, {
     "id" : "param1",
