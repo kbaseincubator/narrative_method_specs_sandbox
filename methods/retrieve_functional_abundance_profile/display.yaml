@@ -7,8 +7,9 @@ tooltip  : |
     Generate functional annotation abundance data for selected metagenomes.
 
 screenshots :
-    []
-
+    - retrieve_functional_abundance_profile_input.png
+    - retrieve_functional_abundance_profile_output.png
+    
 icon: icon.png
 
 #
