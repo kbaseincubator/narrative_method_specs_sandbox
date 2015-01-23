@@ -19,8 +19,8 @@
     }
   }, {
     "id" : "compoundFile",
-    "optional" : false,
-    "advanced" : false,
+    "optional" : true,
+    "advanced" : true,
     "allow_multiple" : false,
     "default_values" : [ "" ],
     "field_type" : "file",
