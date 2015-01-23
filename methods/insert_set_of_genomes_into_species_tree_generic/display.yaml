@@ -8,7 +8,7 @@ tooltip  : |
     Add a set of user-provided genomes to the KBase species tree.
 
 screenshots :
-    []
+    - insert_set_of_genomes_into_species_tree_input.png
 
 #
 # Define the set of other narrative methods that should be suggested to the user.
