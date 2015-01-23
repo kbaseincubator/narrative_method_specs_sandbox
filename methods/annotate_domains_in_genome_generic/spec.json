@@ -6,7 +6,7 @@
   "categories" : ["active"],
   "widgets" : {
     "input" : null,
-    "output" : "kbaseGeneDomains"
+    "output" : "KBaseGeneDomains"
   },
   "parameters" : [ {
     "id" : "param0",
