@@ -67,6 +67,8 @@ parameters :
 
 description : |
     <p>This method allows a user to construct a phylogenetic tree combining the genome provided by the user with  a set of closely related genomes from the KBase list of species. Since the number of genomes available in KBase is very large, the procedure starts by selecting a subset of KBase genomes closely related to the user-provided genome. Relatedness is determined by alignment similarity to a select subset of COG (Clusters of Orthologous Groups) domains. Next, a phylogenetic tree is reconstructed using FastTree (a method to quickly estimate maximum likelihood phylogeny, see Publications) with the genome provided by the user and the set of genomes identified as similar in the previous step. The output tree can be shown with two possible layouts - rectangular and circular.</p>
+    
+    <p><strong>Team members who developed & deployed algorithm in KBase:</strong> Roman Sutormin. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
 
 publications :
     -
