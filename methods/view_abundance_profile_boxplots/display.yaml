@@ -8,7 +8,8 @@ tooltip  : |
     Generate boxplots from annotation abundance data.
 
 screenshots :
-    []
+    - view_abundance_profile_boxplots_input.png
+    - view_abundance_profile_boxplots_output.png
 
 #
 # Define the set of other narrative methods that should be suggested to the user.
