@@ -13,11 +13,17 @@ screenshots :
 #
 # Define the set of other narrative methods that should be suggested to the user.
 #
-method-suggestions :
-    related :
-        []
-    next :
-        []
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
 
 
 #
@@ -39,7 +45,7 @@ parameters :
             Target object ID.
         long-hint  : |
             Target object ID.
-            
+
     fastaReferenceOnly :
         ui-name : |
             FASTA REFERENCE ONLY
