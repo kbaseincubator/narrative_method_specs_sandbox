@@ -8,7 +8,8 @@ tooltip  : |
     This method translates a metabolic model from one genome to another.
 
 screenshots :
-    []
+    - propagate_model_to_new_genome_input.png
+    - propagate_model_to_new_genome_output.png
 
 #
 # Define the set of other narrative methods that should be suggested to the user.
