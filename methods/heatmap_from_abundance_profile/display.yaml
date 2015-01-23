@@ -80,28 +80,27 @@ description : |
     <p>Several clustering and distance metric options are offered. This provides flexibility for users as there really is no definitive answer as to which distance/dissimilarity metrics and clustering methods are best suited for application to annotation abundance data; therefore, the user can  select from various distance/dissimilarity metrics and clustering methods.  Distance metric options include:</p>
     
     <p>
-        <ul>
-        <li>bray-curtis (non-Euclidean: well established ecological dissimilarity metric, most suitable for use with raw abundance data)</li>
-        <li>manhattan (non-Euclidean: a.k.a. city block distance, the sum of absolute differences between A & B)</li>
-        <li>euclidean (classic geometric distance metric, suitable for most data that have undergone normalization)</li>
-        <li>maximum (maximum distance between A & B)</li>
-        <li>canberra (similar to manhattan - values undergo additional scaling)</li>
-        <li>minkowski (Euclidean: generalization of both the Euclidean distance and the Manhattan distance)</li>
-        </ul>
+    <ul>
+    <li>bray-curtis (non-Euclidean: well established ecological dissimilarity metric, most suitable for use with raw abundance data)</li>
+    <li>manhattan (non-Euclidean: a.k.a. city block distance, the sum of absolute differences between A & B)</li>
+    <li>euclidean (classic geometric distance metric, suitable for most data that have undergone normalization)</li>
+    <li>maximum (maximum distance between A & B)</li>
+    <li>canberra (similar to manhattan - values undergo additional scaling)</li>
+    <li>minkowski (Euclidean: generalization of both the Euclidean distance and the Manhattan distance)</li>
+    </ul>
     </p>
     
     <p>Cluster methods include:</p>
     
     <p>
-        <ul>
-            <li>ward (UPGMA- Unweighted Pair Group Method with Arithmetic Mean): distance between two clusters is the sum of squared deviations from points to centroids. Sensitive to outliers.)</li>
-            <li>single (UPGMA: distance between two clusters is the minimum distance between an observation in one cluster and an observation in the other cluster.)
-</li>
-            <li>complete (UPGMA: distance between two clusters is the maximum distance between an observation in one cluster and an observation in the other cluster. Sensitive to outliers.)</li>
-            <li>mcquitty (WPGMA- Weighted Pair Group Method with Arithmetic Mean): when two clusters are be joined, the distance of the new cluster to any other cluster is calculated as the average of the distances of the soon to be joined clusters to that other cluster.)</li>
-            <li>median (WPGMC - Weighted Pair-Group Method using Centroids: distance between two clusters is the median distance between an observation in one cluster and an observation in the other cluster. Reduces the effect of outliers.)</li>
-            <li>centroid (UPGMC - Unweighted Pair-Group Method using Centroids: distance between two clusters is the distance between the cluster centroids or means.)</li>
-        </ul>
+    <ul>
+    <li>ward (UPGMA- Unweighted Pair Group Method with Arithmetic Mean): distance between two clusters is the sum of squared deviations from points to centroids. Sensitive to outliers.)</li>
+    <li>single (UPGMA: distance between two clusters is the minimum distance between an observation in one cluster and an observation in the other cluster.)</li>
+    <li>complete (UPGMA: distance between two clusters is the maximum distance between an observation in one cluster and an observation in the other cluster. Sensitive to outliers.)</li>
+    <li>mcquitty (WPGMA- Weighted Pair Group Method with Arithmetic Mean): when two clusters are be joined, the distance of the new cluster to any other cluster is calculated as the average of the distances of the soon to be joined clusters to that other cluster.)</li>
+    <li>median (WPGMC - Weighted Pair-Group Method using Centroids: distance between two clusters is the median distance between an observation in one cluster and an observation in the other cluster. Reduces the effect of outliers.)</li>
+    <li>centroid (UPGMC - Unweighted Pair-Group Method using Centroids: distance between two clusters is the distance between the cluster centroids or means.)</li>
+    </ul>
     </p>
-
+    
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong> Kevin Keegan, Jared Bischof, Travis Harrison, Folker Meyer, Tobias Paczian, and Andreas Wilke. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
