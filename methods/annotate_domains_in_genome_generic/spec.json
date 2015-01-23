@@ -86,7 +86,10 @@
         },
         {
           "input_parameter": "param2",
-          "target_property": "out_result_id"
+          "target_property": "out_result_id",
+          "generated_value": {
+            "prefix": "domains_"
+          }
         }
       ],
       "output_mapping" : [
