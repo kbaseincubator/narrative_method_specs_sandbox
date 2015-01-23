@@ -10,14 +10,24 @@
     "output" : "kbasePanGenome"
   },
   "parameters" : [ {
-    "id" : "input_genomes",
-    "optional" : false,
+    "id" : "input_genomeset",
+    "optional" : true,
     "advanced" : false,
     "allow_multiple" : false,
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
       "valid_ws_types" : [ "KBaseSearch.GenomeSet" ]
+    }
+  }, {
+    "id" : "input_genomes",
+    "optional" : true,
+    "advanced" : false,
+    "allow_multiple" : true,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "KBaseGenomes.Genome" ]
     }
   }, {
     "id" : "output_pangenome",
@@ -38,6 +48,10 @@
       "method" : "build_pangenome",
       "input_mapping" : [
         {
+          "input_parameter": "input_genomeset",
+          "target_property": "pangenome_set"
+        },
+        {
           "input_parameter": "input_genomes",
           "target_property": "genomes"
         },
@@ -57,7 +71,7 @@
       "output_mapping" : [
         {
           "input_parameter": "output_pangenome",
-          "target_property": "id"
+          "target_property": "name"
         },
         {
           "narrative_system_variable": "workspace",
