@@ -23,7 +23,7 @@
     "optional" : true,
     "advanced" : false,
     "allow_multiple" : false,
-    "default_values" : [ "" ],
+    "default_values" : [ "50" ],
     "field_type" : "text",
     "text_options" : {
       "valid_ws_types" : [ ]
@@ -48,7 +48,8 @@
       "input_mapping" : [
         {
           "input_parameter": "param0",
-          "target_property": "new_genomes"
+          "target_property": "new_genomes",
+          "target_type_transform": "list<ref>"
         },
         {
           "input_parameter": "param1",

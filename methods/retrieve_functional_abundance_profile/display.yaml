@@ -56,45 +56,45 @@ parameters :
         ui-name : |
             Functional Level
         short-hint : |
-            Annotation hierarchical level to retrieve abundances; default is level 3, level 1 (with KEGG as source: e.g., Metabolism), level 2 (e.g., Carbohydrate Metabolism), level 3 (e.g., Glycolysis / Gluconeogenesis), function (e.g., hexokinase) for functional annotation
+            Annotation hierarchical level to retrieve abundances: default is level 3, level 1 (with KEGG as source: e.g., Metabolism), level 2 (e.g., Carbohydrate Metabolism), level 3 (e.g., Glycolysis / Gluconeogenesis), function (e.g., hexokinase) for functional annotation
         long-hint  : |
-            Annotation hierarchical level to retrieve abundances; default is level 3, level 1 (with KEGG as source: e.g., Metabolism), level 2 (e.g., Carbohydrate Metabolism), level 3 (e.g., Glycolysis / Gluconeogenesis), function (e.g., hexokinase) for functional annotation
+            Annotation hierarchical level to retrieve abundances: default is level 3, level 1 (with KEGG as source: e.g., Metabolism), level 2 (e.g., Carbohydrate Metabolism), level 3 (e.g., Glycolysis / Gluconeogenesis), function (e.g., hexokinase) for functional annotation
 
 
     source :
         ui-name : |
             Source Name
         short-hint : |
-            Data source for annotation; default is SEED, alternatives are RDP, Greengenes, LSU, SSU
+            Data source for annotation: default is SEED, alternatives are RDP, Greengenes, LSU, SSU
         long-hint  : |
-            Data source for annotation; default is SEED, alternatives are RDP, Greengenes, LSU, SSU
+            Data source for annotation: default is SEED, alternatives are RDP, Greengenes, LSU, SSU
 
 
     evalue :
         ui-name : |
             E-Value
         short-hint : |
-            negative log10 value for the upper E-value cutoff; default is 5, alternative is any other integer
+            Negative log10 value for the upper E-value cutoff: default is 5, alternative is any other integer
         long-hint  : |
-            negative log10 value for the upper E-value cutoff; default is 5, alternative is any other integer
+            Negative log10 value for the upper E-value cutoff: default is 5, alternative is any other integer
 
 
     identity :
         ui-name : |
             Percent Identity
         short-hint : |
-            Percent value for minimum % identity cutoff; default is 60%, alternative is any integer between 1-100
+            Percent value for minimum % identity cutoff: default is 60%, alternative is any integer between 1-100
         long-hint  : |
-            Percent value for minimum % identity cutoff; default is 60%, alternative is any integer between 1-100
+            Percent value for minimum % identity cutoff: default is 60%, alternative is any integer between 1-100
 
 
     length :
         ui-name : |
             Alignment Length
         short-hint : |
-            Value for minimum alignment length cutoff; default is 15bp, alternative is any other integer
+            Value for minimum alignment length cutoff: default is 15bp, alternative is any other integer
         long-hint  : |
-            Value for minimum alignment length cutoff; default is 15bp, alternative is any other integer
+            Value for minimum alignment length cutoff: default is 15bp, alternative is any other integer
             
 
 description : |
