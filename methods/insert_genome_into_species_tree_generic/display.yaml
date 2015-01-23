@@ -49,9 +49,9 @@ parameters :
         ui-name : |
             Neighbor public genome count
         short-hint : |
-            number of closest public genomes the tree will contain. (optional, default value is 100)
+            Number of closest public genomes the tree will contain. (optional, default value is 100)
         long-hint  : |
-            number of closest public genomes the tree will contain. (optional, default value is 100)
+            Number of closest public genomes the tree will contain. (optional, default value is 100)
 
 
     param2 :
@@ -68,5 +68,9 @@ parameters :
 description : |
     <p>This method allows a user to construct a phylogenetic tree combining the genome provided by the user with  a set of closely related genomes from the KBase list of species. Since the number of genomes available in KBase is very large, the procedure starts by selecting a subset of KBase genomes closely related to the user-provided genome. Relatedness is determined by alignment similarity to a select subset of COG (Clusters of Orthologous Groups) domains. Next, a phylogenetic tree is reconstructed using FastTree (a method to quickly estimate maximum likelihood phylogeny, see Publications) with the genome provided by the user and the set of genomes identified as similar in the previous step. The output tree can be shown with two possible layouts - rectangular and circular.</p>
 
-    
+publications :
+    -
+        display-text: |
+            Price MN, Dehal PS, Arkin AP (2010)FastTree 2--approximately maximum-likelihood trees for large alignments. PLoS One. 2010 Mar 10;5(3):e9490
+        link: http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2835736/
 
