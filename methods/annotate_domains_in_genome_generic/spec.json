@@ -67,7 +67,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "http://140.221.67.203:8123",
+      "url" : "https://kbase.us/services/gene_families/",
       "name" : "KBaseGeneFamilies",
       "method" : "search_domains",
       "input_mapping" : [
