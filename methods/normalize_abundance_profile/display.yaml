@@ -7,7 +7,7 @@ tooltip  : |
     Normalize abundance data produced by Generate Functional/Taxonomic Abundance Data methods.
 
 screenshots :
-    []
+    - normalize_abundance_profile_input.png
 
 icon: icon.png
 
