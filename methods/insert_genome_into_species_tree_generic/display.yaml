@@ -2,24 +2,32 @@
 # Define basic display information
 #
 name     : Insert Genome into Species Tree
-subtitle : |
-    Insert a Genome into a global genome tree composed of 49 conserved COGs
+
 tooltip  : |
-    Insert a Genome into a global genome tree composed of 49 conserved COGs
+    Add a user-provided genome to the KBase species tree.
+
 
 screenshots :
     - s1.png
     - s2.png
     - s3.png
 
+icon: icon.png
+
 #
 # Define the set of other narrative methods that should be suggested to the user.
 #
-method-suggestions :
-    related :
-        []
-    next :
-        []
+suggestions :
+    apps:
+        related :
+            [test_app_1]
+        next :
+            [test_app_1]
+    methods:
+        related :
+            [test_method_3]
+        next :
+            [test_method_1, test_method_2]
 
 
 #
@@ -28,11 +36,11 @@ method-suggestions :
 parameters :
     param0 :
         ui-name : |
-            Genome ID
+            Genome
         short-hint : |
-            a Genome to insert into the tree
+            Genome to be inserted into a phylogenetic tree for comparing it with closely related publicly available genomes
         long-hint  : |
-            a Genome to insert into the tree
+            Genome to be inserted into a phylogenetic tree for comparing it with closely related publicly available genomes
 
 
     param1 :
@@ -46,16 +54,17 @@ parameters :
 
     param2 :
         ui-name : |
-            Output species tree ID
+            Tree
         short-hint : |
-            Output species tree ID. If empty, an ID will be chosen randomly.
-        long-hint  : |
-            Output species tree ID. If empty, an ID will be chosen randomly.
+            A phylogenetic tree relating genomes available in KBase to the user-provided genome
+        long-hint : |
+            A phylogenetic tree relating genomes available in KBase to the user-provided genome
+        placeholder  : |
+            Output species tree name; if empty, an ID will be chosen randomly.
 
 
 description : |
-    Insert a Genome into a global genome tree composed of 49 conserved COGs.
 
+    <p>This method allows a user to construct a phylogenetic tree combining the genome provided by the user with  a set of closely related genomes from the KBase list of species. Since the number of genomes available in KBase is very large, the procedure starts by selecting a subset of KBase genomes closely related to the user-provided genome. Relatedness is determined by alignment similarity to a select subset of COG (Clusters of Orthologous Groups) domains. Next, a phylogenetic tree is reconstructed using FastTree (a method to quickly estimate maximum likelihood phylogeny, see Publications) with the genome provided by the user and the set of genomes identified as similar in the previous step. The output tree can be shown with two possible layouts: rectangular and circular.
+</p>
 
-technical-description : |
-    Insert a Genome into a global genome tree composed of 49 conserved COGs.
