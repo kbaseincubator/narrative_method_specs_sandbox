@@ -37,10 +37,9 @@ parameters :
         ui-name : |
             Label by Name
         short-hint : |
-            Label by metagenome name and not ID: default is no (checkbox), alternative is yes
+            Label by metagenome name and not ID
         long-hint  : |
-            Label by metagenome name and not ID: default is no (checkbox), alternative is yes
-
+            Label by metagenome name and not ID
 
 description : |
     <p>This method produces a boxplot image for one or more profiles. Each bar, or column, represents the distribution of abundance data for a single metagenome.The purpose of the visualization is for users to easily compare the distribution of values for all of their samples. Samples that exhibit dissimilar distributions cannot be compared in a meaningful way. Normalization can account for differences in data distributions, but not always. Users need to look at the distribution of post-normalization values to see if the distributions have been made more similar.</p>
