@@ -18,7 +18,7 @@
       "valid_ws_types" : [ ]
     }
   }, {
-    "id" : "compundFile",
+    "id" : "compoundFile",
     "optional" : true,
     "advanced" : false,
     "allow_multiple" : false,
