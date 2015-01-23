@@ -4,10 +4,11 @@
 name     : Generate Heatmap from Abundance Data
 
 tooltip  : |
-    Generate a heatmap-dendrogram from abundance data
+    Generate a heatmap-dendrogram from abundance data.
 
 screenshots :
-    []
+    - heatmap_from_abundance_profile_input.png
+    - heatmap_from_abundance_profile_output.png
 
 icon: icon.png
 
