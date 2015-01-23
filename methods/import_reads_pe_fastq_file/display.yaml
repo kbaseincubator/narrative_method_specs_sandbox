@@ -1,25 +1,31 @@
 name     : PAIRED END FASTQ
 subtitle : none
-tooltip  : Upload a PairedEndLibrary object from FASTA or FASTQ file(s) into your workspace.
+tooltip  : Upload a PairedEndLibrary object from FASTQ-file(s) into your workspace.
 
 screenshots :
     []
 
-method-suggestions :
-    related :
-        []
-    next :
-        []
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            []
+    methods:
+        related :
+            []
+        next :
+            []
 
 parameters :
     fastqFile1 :
-        ui-name : READS FILE
-        short-hint : First short read file of a paired end library in FASTA or FASTQ format.
+        ui-name : FASTQ FILE
+        short-hint : First short read file of a paired end library in FASTQ format.
         long-hint  : none
 
     fastqFile2 :
-        ui-name : READS FILE
-        short-hint : Second short read file of a paired end library in FASTA or FASTQ format. Not needed in an interleaved library.
+        ui-name : FASTQ FILE
+        short-hint : Second short read file of a paired end library in FASTQ format. Not needed in an interleaved library.
         long-hint  : none
 
     insertSizeMean :

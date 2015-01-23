@@ -22,7 +22,7 @@
   } ],
   "behavior" : {
     "none" : {
-     "output_mapping" : [
+      "output_mapping" : [
         {
           "constant_value": "KBaseFBA.FBA",
           "target_property": "type"
