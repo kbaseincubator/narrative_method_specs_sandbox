@@ -80,15 +80,12 @@
           "target_property": "dms_ref"
         },
         {
-          "input_parameter": "param2",
-          "target_property": "out_result_id",
-          "generated_value": {
-            "prefix": "domain_annotation_"
-          }
-        },
-        {
           "narrative_system_variable": "workspace",
           "target_property": "out_workspace"
+        },
+        {
+          "input_parameter": "param2",
+          "target_property": "out_result_id",
         }
       ],
       "output_mapping" : [
