@@ -8,9 +8,11 @@ tooltip  : |
 
 
 screenshots :
-    - s1.png
-    - s2.png
-    - s3.png
+    - insert_genome_into_species_tree_input.png
+    - insert_genome_into_species_tree_output1.png
+    - insert_genome_into_species_tree_output2.png
+    - insert_genome_into_species_tree_output3.png
+    - insert_genome_into_species_tree_output4.png
 
 icon: icon.png
 
