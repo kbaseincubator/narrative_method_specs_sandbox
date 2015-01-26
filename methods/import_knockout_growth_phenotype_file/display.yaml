@@ -17,7 +17,7 @@ parameters :
         short-hint : Fitness data as a table in tab-separated format
         long-hint  : none
 
-   genomeObject :
+    genomeObject :
         ui-name : GENOME
         short-hint : Identifier for Genome which contains features referenced from the input table
         long-hint  : none
