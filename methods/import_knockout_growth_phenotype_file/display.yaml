@@ -1,71 +1,39 @@
-#
-# Define basic display information
-#
-name     : UPLOAD TRANSCRIPT
-subtitle : |
-    Import into your narrative a transcript object from a local file in FASTA format.
-tooltip  : |
-    Import into your narrative a transcript object from a local file in FASTA format.
+name     : Fitness Data from a table.
+subtitle : none
+tooltip  : Upload a fitness data, e.g. from RB-TnSeq experiments.
 
 screenshots :
     []
 
-#
-# Define the set of other narrative methods that should be suggested to the user.
-#
-suggestions :
-    apps:
-        related :
-            []
-        next :
-            []
-    methods:
-        related :
-            []
-        next :
-            []
+method-suggestions :
+    related :
+        []
+    next :
+        []
 
-
-#
-# Configure the display and description of the parameters
-#
 parameters :
-    fastaFile :
-        ui-name : |
-            FASTA FILE
-        short-hint : |
-            File with protein/rna data in FASTA format.
-        long-hint  : |
-            File with protein/rna data in FASTA format.
+    csvFile :
+        ui-name : Table in tab-separated format
+        short-hint : Fitness data as a table in tab-separated format
+        long-hint  : none
+
+   genomeObject :
+        ui-name : GENOME
+        short-hint : Identifier for Genome which contains features referenced from the input table
+        long-hint  : none
+
 
     outputObject :
-        ui-name : |
-            GENOME OBJECT ID
-        short-hint : |
-            Provide a name for the genome object you are uploading.<br>ex) Athaliana.TAIR10
-        long-hint  : |
-            Provide a name for the genome object you are uploading.<br>ex) Athaliana.TAIR10
+        ui-name : OUTPUT OBJECT ID
+        short-hint : ID for the imported data
+        long-hint  : none
 
-    genomeId :
-        ui-name : |
-            GENOME IDENTIFIER
-        short-hint : |
-            Optional genome tdentifier
-        long-hint  : |
-            Optional genome tdentifier
-
-    dna :
-        ui-name : |
-            IS DNA
-        short-hint : |
-            Indicates that file contains nucleic acid sequences rather than proteins.
-        long-hint  : |
-            Indicates that file contains nucleic acid sequences rather than proteins.
-
+    genomeObject :
+        ui-name : GENOME
+        short-hint : Identifier for Genome which contains features referenced to in PhenotypeSet object
+        long-hint  : none
 
 description : |
-    Import into your narrative a transcript object from a local file in FASTA format.
-
-
-technical-description : |
-    Import into your narrative a transcript object from a local file in FASTA format.
+    Import into your narrative a fitness data, e.g. from RB-TnSeq experiments.
+technical-description : |	
+    Import into your narrative a fitness data, e.g. from RB-TnSeq experiments.
