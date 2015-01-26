@@ -33,7 +33,7 @@
         },
         {
           "value": "KBasePublicGeneDomains/COGs-only",
-          "display": "COGs 1.0 (from CDD 3.12) domains only"
+          "display": "COGs 1.0 (from CDD 3.12) domains only",
         },
         {
           "value": "KBasePublicGeneDomains/CDD-only",
