@@ -22,12 +22,10 @@ parameters :
         short-hint : Identifier for Genome which contains features referenced from the input table
         long-hint  : none
 
-
     outputObject :
         ui-name : OUTPUT OBJECT ID
         short-hint : ID for the imported data
         long-hint  : none
-
 
 description : |
     Import into your narrative a fitness data, e.g. from RB-TnSeq experiments.
