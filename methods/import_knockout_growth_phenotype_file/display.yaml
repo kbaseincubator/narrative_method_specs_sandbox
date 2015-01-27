@@ -12,7 +12,7 @@ method-suggestions :
         []
 
 parameters :
-    csvFile :
+    inFile :
         ui-name : Table in tab-separated format
         short-hint : Fitness data as a table in tab-separated format
         long-hint  : none
