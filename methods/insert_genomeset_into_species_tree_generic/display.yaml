@@ -56,7 +56,7 @@ parameters :
 
     param2 :
         ui-name : |
-            Tree
+            Output Tree
         short-hint : |
             Output species tree name; if empty, an ID will be chosen randomly
         long-hint : |
