@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Metagenome
+name     : View Metagenome Collection
 subtitle : |
-    Overview of metagenome metadata.
+    Overview of metagenome collection metadata.
 tooltip  : |
-    Overview of metagenome metadata.
+    Overview of metagenome collection metadata.
 
 screenshots :
     []
@@ -24,13 +24,13 @@ method-suggestions :
 # Configure the display and description of the parameters
 #
 parameters :
-    input_metagenome :
+    input_metagenomes :
         ui-name : |
-            Metagenome ID
+            Metagenome List
         short-hint : |
-            id of a metagenome
+            object name of Communities.Collection
         long-hint  : |
-            id of a metagenome
+            object name of Communities.Collection
 
 
 description : |
