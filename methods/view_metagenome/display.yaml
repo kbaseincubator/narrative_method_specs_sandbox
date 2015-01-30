@@ -3,9 +3,9 @@
 #
 name     : View Metagenome
 subtitle : |
-    Overview of metagenome metadata.
+    Overview of metagenome.
 tooltip  : |
-    Overview of metagenome metadata.
+    Overview of metagenome.
 
 screenshots :
     []
@@ -40,8 +40,8 @@ parameters :
 
 
 description : |
-    Overview of metagenome metadata.
+    Overview of metagenome.
 
 
 technical-description : |
-    Overview of metagenome metadata.
+    Overview of metagenome.
