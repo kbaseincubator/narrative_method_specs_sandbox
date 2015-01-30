@@ -10,8 +10,6 @@ tooltip  : |
 screenshots :
     []
 
-icon: none
-
 #
 # Define the set of other narrative methods that should be suggested to the user.
 #
