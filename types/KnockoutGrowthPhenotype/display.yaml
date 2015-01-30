@@ -1,0 +1,15 @@
+#
+# Define basic display information
+#
+name     : Fitness Data
+subtitle : KnockoutGrowthPhenotype object
+tooltip  : KnockoutGrowthPhenotypet object
+
+icon : none
+
+description : |
+    <p>This type describes fitness data from the HT knockout experiments.</p>
+
+    
+    
+    

@@ -1,0 +1,33 @@
+name     : Fitness Data from a table.
+subtitle : none
+tooltip  : Upload a fitness data, e.g. from RB-TnSeq experiments.
+
+screenshots :
+    []
+
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+parameters :
+    inFile :
+        ui-name : Table in tab-separated format
+        short-hint : Fitness data as a table in tab-separated format
+        long-hint  : none
+
+    genomeObject :
+        ui-name : GENOME
+        short-hint : Identifier for Genome which contains features referenced from the input table
+        long-hint  : none
+
+    outputObject :
+        ui-name : OUTPUT OBJECT ID
+        short-hint : ID for the imported data
+        long-hint  : none
+
+description : |
+    Import into your narrative a fitness data, e.g. from RB-TnSeq experiments.
+technical-description : |	
+    Import into your narrative a fitness data, e.g. from RB-TnSeq experiments.

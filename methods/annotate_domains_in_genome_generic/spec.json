@@ -67,28 +67,29 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "http://140.221.67.203:8123",
+      "url" : "https://kbase.us/services/gene_families/",
       "name" : "KBaseGeneFamilies",
       "method" : "search_domains",
       "input_mapping" : [
         {
           "input_parameter": "param0",
-          "target_property": "genome"
+          "target_property": "genome",
+          "target_type_transform": "ref"
         },
         {
           "input_parameter": "param1",
           "target_property": "dms_ref"
         },
         {
+          "narrative_system_variable": "workspace",
+          "target_property": "out_workspace"
+        },
+        {
           "input_parameter": "param2",
           "target_property": "out_result_id",
           "generated_value": {
-            "prefix": "domain_annotation_"
+            "prefix": "domains_"
           }
-        },
-        {
-          "narrative_system_variable": "workspace",
-          "target_property": "out_workspace"
         }
       ],
       "output_mapping" : [

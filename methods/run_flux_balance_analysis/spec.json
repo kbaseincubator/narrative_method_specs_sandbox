@@ -235,7 +235,7 @@
       ],
       "output_mapping" : [
         {
-          "constant_value": "KBaseFBA.FBAModel",
+          "constant_value": "KBaseFBA.FBA",
           "target_property": "type"
         },
         {
