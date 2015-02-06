@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Metagenome
+name     : View Metagenome Annotation Set
 subtitle : |
-    Overview of metagenome.
+    Table of metagenome annotation set.
 tooltip  : |
-    Overview of metagenome.
+    Table of metagenome annotation set.
 
 screenshots :
     []
@@ -32,16 +32,16 @@ suggestions :
 parameters :
     input_metagenome :
         ui-name : |
-            Metagenome ID
+            Metagenome
         short-hint : |
-            id of a metagenome
+            metagenome object
         long-hint  : |
-            id of a metagenome
+            metagenome object
 
 
 description : |
-    Overview of metagenome.
+    Table of metagenome annotation set.
 
 
 technical-description : |
-    Overview of metagenome.
+    Table of metagenome annotation set.

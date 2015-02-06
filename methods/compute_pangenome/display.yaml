@@ -27,7 +27,7 @@ suggestions :
         related :
             []
         next :
-            []
+            - genome_comparison_from_pangenome
 
 
 #
@@ -36,28 +36,28 @@ suggestions :
 parameters :
     input_genomes :
         ui-name : |
-            Genome ID
+            Genome(s)
         short-hint : |
-            The set of genomes to compute pangenome for
+            Add several Genomes to compose a set
         long-hint  : |
-            The set of genomes to compute pangenome for
+            Add several Genomes to compose a set
 
     input_genomeset :
         ui-name : |
-            Genome Set ID
+            Genome Set
         short-hint : |
-            The set of genomes to compute pangenome for
+            A set of references to genomes stored in KBase
         long-hint  : |
-            The set of genomes to compute pangenome for
+            A set of references to genomes stored in KBase
 
 
     output_pangenome :
         ui-name : |
             Pangenome ID
         short-hint : |
-            Name of the output Pangenome object
+            A list of all distinct protein families identified in a set of input genome sequences, as well as the IDs of the proteins present in each family
         long-hint  : |
-            Name of the output Pangenome object
+            A list of all distinct protein families identified in a set of input genome sequences, as well as the IDs of the proteins present in each family
 
 
 description : |
@@ -68,17 +68,5 @@ description : |
     <p>We strongly encourage users to build a phylogenetically closely related set of genomes using the app "Insert Genomes into Species Tree" or from the method "Build Genome Set From Tree".  The output for this method consists of a pangenome data object as well as a summary data table with three tabs displayed in the Narrative. The first tab corresponds to an overview of the results including the total number of proteins assigned to families and singletons and the list of genomes considered in the analysis. The second tab, ‘Shared homolog families’, shows a table of counts of protein families found in common between all pairs of genomes in the analysis. The third tab, ‘Protein families’, displays all individual sequence families determined in the pangenome analysis and includes putative functional assignments, the number of proteins assigned to each family and the number of genomes those proteins were found in.
     </p>
 
-    <p><strong>Inputs</strong>
-
-    <p><i>GenomeSet</i><br>
-    A set of references to genomes stored in KBase.</p>
-
-    <p><strong>Outputs</strong>
-
-    <p><i>Pangenome</i><br>
-    A list of all distinct protein families identified in a set of input genome sequences, as well as the IDs of the proteins present in each family.</p>
-    </p>
-
     <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
     Chris Henry, Janaka Edirisinghe, Sam Seaver, Neal Conrad. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
-
