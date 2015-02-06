@@ -80,4 +80,4 @@ description : |
 	    
 	    <p>The annotation job may run for an hour or longer, especially if all libraries are selected.  When the annotation job finishes, a DomainAnnotation object will be stored in your data store, which can be used to browse the domains that were identified in your genome.
 
-	    <p><strong>Team members who developed & deployed methods in KBase:</strong> John-Marc Chandonia, Roman Sutormin, and Pavel Novichkov. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
+	    <p><strong>Team members who developed &amp; deployed methods in KBase:</strong> John-Marc Chandonia, Roman Sutormin, and Pavel Novichkov. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a>
