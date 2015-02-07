@@ -205,9 +205,9 @@ parameters :
         ui-name : |
             Output Genome Name
         short-hint : |
-            Name to assign the output genome; if left blank, a name will be generated for you
+            Name to assign the output genome
         long-hint  : |
-            Name to assign the output genome; if left blank, a name will be generated for you
+            Name to assign the output genome
 
 
 description : |
