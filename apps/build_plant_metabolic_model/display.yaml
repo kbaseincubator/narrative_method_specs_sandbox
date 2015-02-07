@@ -10,7 +10,7 @@ tooltip  : |
 screenshots : []
 
 header : |
-    <p>The &quot;Build Plant Metabolic Model&quot; app generates a metabolic model for a plant. The user begins by supplying an annotated Genome object derived from a KBase method: &quot;Plant Transcript Sequences to Annotated Genome&quot;. A metabolic model is generated from the PlantSEED-based metabolic annotation of the genome, and is then gap filled. The user can visualize the model.</p>
+    <p>The &quot;Build Plant Metabolic Model&quot; app generates a metabolic model for a plant. The user begins by supplying a Genome object containing either gene or transcript sequences. First, the genome is annotated with PlantSEED-based metabolic annotation. Secondly, a metabolic model is generated from the metabolic annotation in the Genome object. Finally, the metabolic model is gap filled so that growth can be simulated using FBA. The user can visualize the annotated genome and the resulting metabolic model.</p>
 
 step-descriptions :
     step_1 : |
@@ -21,7 +21,8 @@ step-descriptions :
         additional instructions/details regarding the step with id step_3
 
 description : |
-    <p>The &quot;Build Plant Metabolic Model&quot; app generates a metabolic model for a plant. The user begins by supplying an annotated Genome object derived from a KBase method: &quot;Plant Transcript Sequences to Annotated Genome&quot;. A metabolic model is generated from the PlantSEED-based metabolic annotation of the genome, and is then gap filled. The user can visualize the model.</p>
+    <p>The &quot;Build Plant Metabolic Model&quot; app generates a metabolic model for a plant. The user begins by supplying a Genome object containing either gene or transcript sequences. First, the genome is annotated with PlantSEED-based metabolic annotation. Secondly, a metabolic model is generated from the metabolic annotation in the Genome object. Finally, the metabolic model is gap filled so that growth can be simulated using FBA. The user can visualize the annotated genome and the resulting metabolic model.</p>
+
 
     
     
