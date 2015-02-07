@@ -17,6 +17,8 @@ step-descriptions :
         additional instructions/details regarding the step with id step_1
     step_2 : |
         additional instructions/details regarding the step with id step_2
+    step_3 : |
+        additional instructions/details regarding the step with id step_3
 
 description : |
     <p>The &quot;Build Plant Metabolic Model&quot; app generates a metabolic model for a plant. The user begins by supplying an annotated Genome object derived from a KBase method: &quot;Plant Transcript Sequences to Annotated Genome&quot;. A metabolic model is generated from the PlantSEED-based metabolic annotation of the genome, and is then gap filled. The user can visualize the model.</p>
