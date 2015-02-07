@@ -13,7 +13,7 @@ method-suggestions :
 
 parameters :
     inFile :
-        ui-name : Table in tab-separated format
+        ui-name : TABLE IN TAB-SEPARATED FORMAT
         short-hint : Fitness data as a table in tab-separated format
         long-hint  : none
 
