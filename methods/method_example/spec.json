@@ -69,7 +69,9 @@
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "validate_as": "float"
+      "validate_as": "float",
+      "max_float" : 125.2,
+      "min_float" :-1e2
     }
   }, {
     "id": "checkbox_example",
