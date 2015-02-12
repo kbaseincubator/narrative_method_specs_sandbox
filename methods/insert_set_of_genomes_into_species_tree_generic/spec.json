@@ -26,7 +26,9 @@
     "default_values" : [ "100" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ ]
+      "valid_ws_types" : [ ],
+      "min_int" : 1,
+      "max_int" : 200
     }
   }, {
     "id" : "param2",
