@@ -1,5 +1,5 @@
 {
-  "name" : "View Genome Comparison",
+  "name" : "View FBA Model Set",
   "ver" : "1.0.0",
   "authors" : [ ],
   "contact" : "help@kbase.us",
@@ -7,7 +7,7 @@
   "categories" : ["viewers"],
   "widgets" : {
     "input" : null,
-    "output" : "kbaseGenomeComparisonViewer"
+    "output" : "kbaseTabTable"
   },
   "parameters" : [ {
     "id" : "param0",
@@ -17,15 +17,19 @@
     "default_values" : [ "" ],
     "field_type" : "text",
     "text_options" : {
-      "valid_ws_types" : [ "KBaseGenomes.GenomeComparison" ]
+      "valid_ws_types" : [ "KBaseFBA.FBAModelSet" ]
     }
   } ],
   "behavior" : {
     "none" : {
       "output_mapping" : [
         {
+          "constant_value": "KBaseFBA.FBAModelSet",
+          "target_property": "type"
+        },
+        {
           "input_parameter": "param0",
-          "target_property": "id"
+          "target_property": "obj"
         },
         {
           "narrative_system_variable": "workspace",

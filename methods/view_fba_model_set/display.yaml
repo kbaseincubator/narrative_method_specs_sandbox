@@ -1,11 +1,11 @@
 #
 # Define basic display information
 #
-name     : View Genome Comparison
+name     : View FBA Model Set
 subtitle : |
-    View genome comparison results.
+    View FBA Model Set.
 tooltip  : |
-    View genome comparison results.
+    View FBA Model Set.
 
 screenshots :
     []
@@ -32,16 +32,16 @@ suggestions :
 parameters :
     param0 :
         ui-name : |
-            Genome comparison ID
+            FBA Model Set ID
         short-hint : |
-            Genome comparison ID
+            FBA Model Set ID
         long-hint  : |
-            Genome comparison ID
+            FBA Model Set ID
 
 
 description : |
-    View genome comparison results.
+    View FBA model set.
 
 
 technical-description : |
-    View genome comparison results.
+    View FBA model set.
