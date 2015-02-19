@@ -67,7 +67,7 @@
   } ],
   "behavior" : {
     "service-mapping" : {
-      "url" : "http://140.221.67.188:9999",
+      "url" : "http://140.221.67.188:8080",
       "name" : "KBaseGeneFamilies",
       "method" : "search_domains",
       "input_mapping" : [
