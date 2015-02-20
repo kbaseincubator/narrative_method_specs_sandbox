@@ -19,12 +19,12 @@ suggestions :
         related :
             []
         next :
-            []
+            [build_fba_model, build_species_tree, genome_comparison]
     methods:
         related :
             []
         next :
-            []
+            [build_a_metabolic_model]
 
 
 #
@@ -222,7 +222,7 @@ description : |
     Using multiple gene calling algorithms can result in overlapping gene calls. This program is a custom tool that attempts to minimize overlaps and gaps to provide a set of calls that has a smaller number of gene calling errors. We do not recommend using overlap removal if you are attempting to annotate phage.</li>
     
     <p><strong>Other Non-default options</strong><br>
-    Note that most of the non-default parameters will recall features.  Since the genome typed object does not contain the original contigs it is necessary to retain the contig set if you have generated the initial genome typed object by uploading a GenBank file or annotating with the “Annotate a Microbial Genome” app. If you recall rRNA or CDS features we highly recommend turning on the “Resolve overlapping features” option so that you do not end up with duplicate feature calls.</p>
+    Note that most of the non-default parameters will recall features.  Since the genome typed object does not contain the original contigs it is necessary to retain the contig set if you have generated the initial genome typed object by uploading a GenBank file or annotating with the √íAnnotate a Microbial Genome√ì app. If you recall rRNA or CDS features we highly recommend turning on the √íResolve overlapping features√ì option so that you do not end up with duplicate feature calls.</p>
     
     <li><i>Call rRNAs (default = on)</i><br>
     This is a custom BLAST-based tool.</li>
