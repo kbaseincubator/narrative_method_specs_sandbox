@@ -18,12 +18,12 @@ suggestions :
         related :
             []
         next :
-            []
+            [bad_app]
     methods:
         related :
             []
         next :
-            []
+            [some_made_up_method]
 
 
 #
