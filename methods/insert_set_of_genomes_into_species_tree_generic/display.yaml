@@ -23,7 +23,7 @@ suggestions :
         related :
             []
         next :
-            [some_made_up_method]
+            [some_made_up_method, something else]
 
 
 #
