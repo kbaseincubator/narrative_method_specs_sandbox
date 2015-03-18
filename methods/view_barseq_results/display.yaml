@@ -1,0 +1,41 @@
+#
+# Define basic display information
+#
+name     : View BarSeq Results
+subtitle : |
+    View and explore BarSeq Results
+tooltip  : |
+    View and explore BarSeq Results
+
+screenshots :
+    []
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+method-suggestions :
+    related :
+        []
+    next :
+        []
+
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    param0 :
+        ui-name : |
+            BarSeq Results
+        short-hint : |
+            select a BarSeqExperimentResults object to view
+        long-hint  : |
+            select a BarSeqExperimentResults object to view
+
+
+description : |
+    View and explore BarSeq Results
+
+
+technical-description : |
+    View and explore BarSeq Results

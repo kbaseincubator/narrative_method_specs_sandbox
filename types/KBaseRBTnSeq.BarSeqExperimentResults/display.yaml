@@ -1,0 +1,14 @@
+#
+# Define basic display information
+#
+name     : View BarSeq Results
+subtitle : BarSeqExperimentResults object
+tooltip  : BarSeqExperimentResults object
+
+icon : none
+
+description : |
+    <p>This type describes a set of results from BarSeq experiments performed on single species.</p>
+    
+    
+    
