@@ -47,7 +47,7 @@
       "method" : "calculate",
       "input_mapping" : [
         {
-          "input_parameter": "input_genome",
+          "input_parameter": "input_probanno",
           "target_property": "probanno"
         },
         {
