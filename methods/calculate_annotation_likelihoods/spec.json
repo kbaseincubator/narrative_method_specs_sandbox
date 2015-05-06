@@ -1,0 +1,64 @@
+{
+  "name" : "Generate Annotation Likelihoods",
+  "ver" : "1.0.0",
+  "authors" : [ "mmundy" ],
+  "contact" : "help@kbase.us",
+  "visble" : true,
+  "categories" : [ "active" ],
+  "widgets" : {
+    "input" : null,
+    "output" : "kbaseTabTable"
+  },
+  "parameters" : [ {
+    "id" : "input_genome",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "KBaseGenomes.Genome" ]
+    }
+  }, {
+    "id" : "output_probanno",
+    "optional" : false,
+    "advanced" : false,
+    "allow_multiple" : false,
+    "default_values" : [ "" ],
+    "field_type" : "text",
+    "text_options" : {
+      "valid_ws_types" : [ "ProbabilisticAnnotation.ProbAnno" ]
+    }
+  } ],
+  "behavior" : {
+    "service-mapping" : {
+      "url" : "",
+      "name" : "probabilistic_annotation",
+      "method" : "annotate",
+      "input_mapping" : [
+        {
+          "input_parameter": "input_genome",
+          "target_property": "genome"
+        },
+        {
+          "input_parameter": "output_probanno",
+          "target_property": "probanno"
+        }
+      ],
+      "output_mapping" : [
+        {
+          "constant_value": "ProbabilisticAnnotation.ProbAnno",
+          "target_property": "type"
+        },
+        {
+          "input_parameter": "output_probanno",
+          "target_property": "obj"
+        },
+        {
+          "narrative_system_variable": "workspace",
+          "target_property": "ws"
+        }
+      ]
+    }
+  }
+}
