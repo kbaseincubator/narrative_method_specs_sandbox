@@ -7,6 +7,19 @@ subtitle : |
 tooltip  : |
     In this App, you can run FBA on an FBA Model.
 
+suggestions :
+    apps:
+        related :
+            []
+        next :
+            [made_up_app, nothing nothing nothing]
+    methods:
+        related :
+            []
+        next :
+            []
+
+
 screenshots : []
 
 

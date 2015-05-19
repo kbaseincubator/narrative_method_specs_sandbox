@@ -12,6 +12,9 @@ So feel free to edit, make frequent commits, and break things.  Although keep in
 for thier own experimenting needs as well, so please don't delete everything or force push your changes on others.
 
 
+some conflicting comment
+some other doc
+
 
 ------------------------
 

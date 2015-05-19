@@ -1,0 +1,73 @@
+#
+# Define basic display information
+#
+name     : Calculate Reaction Likelihoods
+tooltip  : |
+    Calculate reaction likelihoods from annotation likelihoods.
+
+screenshots :
+    [ ]    
+
+icon: icon.png
+
+#
+# Define the set of other narrative methods that should be suggested to the user.
+#
+suggestions :
+    apps:
+        related :
+            [ ]
+        next :
+            [ ]
+    methods:
+        related :
+            [ build_a_metabolic_model, generate_annotation_likelihoods ]
+        next :
+            [ gapfill_a_metabolic_model ]
+
+#
+# Configure the display and description of the parameters
+#
+parameters :
+    input_probanno :
+        ui-name : |
+            Probabilistic Annotation
+        short-hint : |
+            Name of probabilistic annotation
+        long-hint : |
+            Name of probabilistic annotation generated from protein similarity search
+        placeholder : |
+            Name of probabilistic annotation
+
+    input_template :
+        ui-name : |
+            Model Template
+        short-hint : |
+            Name of model template
+        long-hint : |
+            Name of model template used to build metabolic model for organism
+        placeholder : |
+            Name of model template
+
+    output_rxnprobs :
+        ui-name : |
+            Reaction Likelihoods
+        short-hint : |
+            Name of reaction likelihoods
+        long-hint  : |
+            Name of reaction likelihoods calculated from annotation likelihoods
+        placeholder : |
+            Name of reaction likelihoods
+
+description : |
+    <p>Reaction likelihoods represent the confidence in the inclusion of a particular reaction in a metabolic network.  The conversion of annotation likelihoods to reaction likelihoods takes into account the fact that an annotation can imply multiple functional roles, a protein with a particular functional role can be part of multiple protein complexes, and multiple complexes can catalyze the same reaction.  The likelihood of the existence of a reaction in the cell is computed as the maximum likelihood of the possible complexes that can catalyze it.  Reaction likelihoods are used to improve the gap filling of a metabolic model (see <a data-method-id=gapfill_a_metabolic_model>Gapfill Metabolic Model</a>)</p>
+        
+    <p><strong>Team members who developed & deployed algorithm in KBase:</strong>
+    Matt Benedict, Mike Mundy, Nicholas Chia, Chris Henry. For questions, <a href="mailto:help@kbase.us">e-mail help@kbase.us</a></p>
+ 
+publications :
+    -
+        display-text: |
+            Benedict MN, Mundy MB, Henry CS, Chia N, Price ND (2014) Likelihood-Based Gene Annotations for Gap Filling and Quality Assessment in Genome-Scale Metabolic Models. PLoS Comput Biol 10(10):e1003882. doi: 10.1371/journal.pcbi.1003882.
+        link: http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003882
+

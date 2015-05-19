@@ -205,13 +205,11 @@ parameters :
         ui-name : |
             Output Genome Name
         short-hint : |
-            Name to assign the output genome; if left blank, a name will be generated for you
-        long-hint  : |
-            Name to assign the output genome; if left blank, a name will be generated for you
+            Name to assign the output genome
 
 
 description : |
-    <p>This method uses components from the RAST (Rapid Annotations using Subsystems Technology) toolkit to annotate an assembled bacterial or archaeal genome.  The required input--a set of contigs in FASTA format--can be generated using the &quot;Assemble Contigs from Reads&quot; method, or uploaded from a user’s computer or imported via ftp.  The method converts the FASTA file of contigs (the &quot;Contig Set&quot;) into a genome typed object, which is called a &quot;Genome&quot; in the data menu.</p>
+    <p>This method uses components from the RAST (<a href= "http://rast.nmpdr.org/">Rapid Annotations using Subsystems Technology</a>) toolkit (publication forthcoming) to annotate an assembled bacterial or archaeal genome.  The required input - a Contig Set in FASTA format - can be generated using the <a data-method-id=“assemble_contigset_from_reads”>Assemble Contigs from Reads</a> method, uploaded from a GenBank file, or imported directly from NCBI via FTP.  The method converts the FASTA file of contigs (the &quot;Contig Set&quot;) into a genome typed object, which is called a &quot;Genome&quot; in the data menu.</p>
     
     <p>There are three essential metadata fields that must be filled in: scientific name, domain, and genetic code. Most bacterial and archaeal genomes use genetic code 11, while Mycoplasmas use genetic code 4. For more information on genetic codes please refer to <a href="http://www.ncbi.nlm.nih.gov/Taxonomy/Utils/wprintgc.cgi">this NCBI document</a>. All fields are required because they affect conditional parameters in various programs that are being run. Use existing scientific names whenever possible.</p>
     
@@ -281,7 +279,7 @@ description : |
     </p>
     
     <p><strong>Advanced Annotation Options</strong><br>
-    If you wish to customize your annotation, you can click the &quot;show advanced options&quot; link. This will display the full set of available annotation programs. There are currently two additional options,  &quot;Call features insertion sequences &quot; and &quot;Call features prophage phispy&quot;, which are left unchecked in the default pipeline because they are slower.  The insertion sequence finder is a custom BLAST-based script, and information on phispy can be found <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=22584627">here</a>.</p>
+    If you wish to customize your annotation, you can click the &quot;show advanced options&quot; link. This will display the full set of available annotation programs. There are currently two additional options, &quot;Call features insertion sequences &quot; and &quot;Call features prophage phispy&quot;, which are left unchecked in the default pipeline because they are slower.  The insertion sequence finder is a custom BLAST-based script, and information on phispy can be found <a href="http://www.ncbi.nlm.nih.gov/pubmed/?term=22584627">here</a>.</p>
     
     <p><strong>GUI Output</strong><br>
     The GUI output currently consists of three tabs. The &quot;Overview&quot; tab provides basic information on the annotation job, the &quot;Contigs&quot; tab provides information on the contigs in the genome, and the &quot;Genes&quot; tab allows the user to scroll through the features that called. Users can sort on the various types of features. The features that get called can be controlled by using the advanced options.  Note that some features will overlap (e.g., &quot;prophage&quot; and &quot;CDS&quot;).</p>
