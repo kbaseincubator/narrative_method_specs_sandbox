@@ -1,3 +1,9 @@
+
+# DO NOT USE
+
+The narrative sandbox has been decommissioned.  Testing and developing specs is now supported directly on CI using this repository: https://github.com/kbase/narrative_method_specs_ci
+
+
 Narrative Method & App Specifications
 -----------------------------------------------
 
